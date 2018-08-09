@@ -1,0 +1,67 @@
+-- Insérer des valeurs dans la table passager de la database people
+INSERT INTO `people`.`passager`
+-- pour les champs suivants
+(`nom`,
+`prenom`,
+`numeroVol`,
+`nombreBagages`,
+`numeroClient`)
+VALUES
+('Einstein',
+'Albert',
+45622,
+2,
+154565),
+('Lavoisier',
+'Antoine',
+45644,
+4,
+235002),
+('Raimbault',
+'Arthur',
+12896,
+2,
+544552),
+('Poincaré',
+'Henri',
+45644,
+3,
+781201),
+('Lavoisier',
+'Antoine',
+45644,
+1,
+785154),
+('Einstein',
+'Albert',
+75906,
+0,
+858547);
+-- Insérer des valeurs dans la table personne de la database people
+INSERT INTO `people`.`personne`
+-- pour les champs suivants
+(`nom`,
+`prenom`,
+`age`,
+`civilite`)
+VALUES
+('Einstein',
+'Albert',
+45,
+'marié'),
+('Lavoisier',
+'Antoine',
+41,
+'marié'),
+('Planck',
+'Max',
+52,
+'veuf'),
+('Poincaré',
+'Henri',
+45,
+'marié'),
+('Raimbault',
+'Arthur',
+25,
+'célibataire');
