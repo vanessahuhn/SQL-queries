@@ -1705,7 +1705,8 @@
 								"name": "1, 1",
 								"reference": {
 									"$ref": "AAAAAAFlOdHhr5nUUVg="
-								}
+								},
+								"cardinality": "1..*"
 							},
 							"end2": {
 								"_type": "ERDRelationshipEnd",
@@ -1716,8 +1717,7 @@
 								"name": "1, n",
 								"reference": {
 									"$ref": "AAAAAAFlOdJ20JogjcU="
-								},
-								"cardinality": "1..*"
+								}
 							}
 						},
 						{
@@ -1736,7 +1736,8 @@
 								"name": "1, 1",
 								"reference": {
 									"$ref": "AAAAAAFlOdHhr5nUUVg="
-								}
+								},
+								"cardinality": "0..*"
 							},
 							"end2": {
 								"_type": "ERDRelationshipEnd",
@@ -1747,8 +1748,7 @@
 								"name": "0, n",
 								"reference": {
 									"$ref": "AAAAAAFlOdNKM5ot2mQ="
-								},
-								"cardinality": "0..*"
+								}
 							}
 						},
 						{
@@ -1767,8 +1767,7 @@
 								"name": "0, n",
 								"reference": {
 									"$ref": "AAAAAAFlOdHhr5nUUVg="
-								},
-								"cardinality": "0..*"
+								}
 							},
 							"end2": {
 								"_type": "ERDRelationshipEnd",
@@ -1779,7 +1778,8 @@
 								"name": "1, 1",
 								"reference": {
 									"$ref": "AAAAAAFlOdOhn5pH5Dg="
-								}
+								},
+								"cardinality": "0..*"
 							}
 						}
 					],
@@ -2168,7 +2168,8 @@
 								"name": "1, 1",
 								"reference": {
 									"$ref": "AAAAAAFlOdOhn5pH5Dg="
-								}
+								},
+								"cardinality": "1..*"
 							},
 							"end2": {
 								"_type": "ERDRelationshipEnd",
@@ -2179,8 +2180,7 @@
 								"name": "1, n",
 								"reference": {
 									"$ref": "AAAAAAFlOdQoPppix2Q="
-								},
-								"cardinality": "1..*"
+								}
 							}
 						},
 						{
@@ -2199,7 +2199,8 @@
 								"name": "1, 1",
 								"reference": {
 									"$ref": "AAAAAAFlOdOhn5pH5Dg="
-								}
+								},
+								"cardinality": "0..*"
 							},
 							"end2": {
 								"_type": "ERDRelationshipEnd",
@@ -2210,8 +2211,7 @@
 								"name": "0, n",
 								"reference": {
 									"$ref": "AAAAAAFlOdPyEppU+ok="
-								},
-								"cardinality": "0..*"
+								}
 							}
 						},
 						{
@@ -2231,7 +2231,7 @@
 								"reference": {
 									"$ref": "AAAAAAFlOdOhn5pH5Dg="
 								},
-								"cardinality": "0..*"
+								"cardinality": "1..*"
 							},
 							"end2": {
 								"_type": "ERDRelationshipEnd",
@@ -2243,7 +2243,7 @@
 								"reference": {
 									"$ref": "AAAAAAFlOdRapJpvxcs="
 								},
-								"cardinality": "1..*"
+								"cardinality": "0..*"
 							}
 						}
 					],
